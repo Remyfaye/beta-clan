@@ -4,25 +4,35 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="items-center border-b-[1px] border-gray-200 flex justify-between bg-slate-50 -m-10 p-5">
-      {/* logo */}
+    <div>
+      <div className="items-center border-b-[1px] border-gray-200 flex justify-between bg-slate-50 -m-10 p-5">
+        {/* logo */}
 
-      <h1 className="text-primary font-bold text-xl">BetaClan</h1>
-      {/* navitems */}
-      <div className="lg:flex gap-5 hidden ">
-        {navItems.map((item) => (
-          <>
-            <p>{item.label}</p>
-          </>
-        ))}
-      </div>
-      {/* signin */}
-      <div className="lg:flex gap-5 hidden">
-        <button className="btn-trans">Sign Up</button>
-        <button className="btn-full">Connect Wallet</button>
-      </div>
+        <h1 className="text-primary font-bold text-xl">BetaClan</h1>
 
-      <Image />
+        {/* navitems */}
+        <div className="lg:flex gap-5 hidden ">
+          {navItems.map((item) => (
+            <>
+              <p>{item.label}</p>
+            </>
+          ))}
+        </div>
+        {/* signin */}
+        <div className="lg:flex gap-5 hidden">
+          <button className="btn-trans">Sign Up</button>
+          <button className="btn-full">Connect Wallet</button>
+        </div>
+
+        <Image
+          className="h-[10px] w-[30px]"
+          alt=""
+          width={100}
+          height={100}
+          src="/menu.png"
+        />
+      </div>
+      {/* <div className="bg-white h-[100px] w-[200px]"></div> */}
     </div>
   );
 };

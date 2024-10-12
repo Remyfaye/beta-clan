@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <div className="lg:flex gap-10 bg-primary -m-10 mt-5 p-10 text-white">
       {/* one */}
-      <div className="w-[30%] p-10">
+      <div className="lg:w-[30%] p-10">
         <h1>BetaClan</h1>
         <p>Check infocoin in our social media channel</p>
       </div>
 
       {/* two */}
-      <div className="w-[30%] p-10">
+      <div className="w-full lg:w-[30%] p-10">
         <h1>Data Bundle</h1>
         <p>MTN Bundle</p>
         <p>Glo Bundle </p>
@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
 
       {/* three */}
-      <div className="w-[30%] p-10">
+      <div className="lg:w-[30%] p-10">
         <h1>Learn More</h1>
         <p>About US</p>
         <p>Contact Us</p>
