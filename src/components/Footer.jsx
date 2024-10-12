@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex gap-10 bg-primary -m-10 mt-5 p-10 text-white">
+    <div className="lg:flex gap-10 bg-primary -m-10 mt-5 p-10 text-white">
       {/* one */}
       <div className="w-[30%] p-10">
         <h1>BetaClan</h1>

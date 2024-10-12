@@ -9,30 +9,30 @@ const Databundle = () => {
         Infocoin offer a very affordable data bundle even if it’s on-chain
         transaction
       </p>
-      <div className="flex gap-10 items-center justify-between">
+      <div className="lg:flex  gap-10 items-center justify-between">
         <Image
-          className="rounded-lg"
+          className="rounded-lg my-3 w-full "
           alt=""
           width={250}
           height={250}
           src="/airtel.png"
         />
         <Image
-          className="rounded-lg"
+          className="rounded-lg w-full my-3"
           alt=""
           width={250}
           height={250}
           src="/glo.png"
         />
         <Image
-          className="rounded-lg"
+          className="rounded-lg w-full my-3"
           alt=""
           width={250}
           height={250}
           src="/mtn.png"
         />
         <Image
-          className="rounded-lg"
+          className="rounded-lg w-full my-3"
           alt=""
           width={250}
           height={250}

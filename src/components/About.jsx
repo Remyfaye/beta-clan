@@ -23,7 +23,9 @@ const About = () => {
             9mobile and Glo. You can get any data bundle as low as 500MB with
             crypto currency.
           </p>
-          <button className="btn-full">View Bundle</button>
+          <button className="btn-full w-full mt-3 lg:w-[50%]">
+            View Bundle
+          </button>
         </div>
         <Image
           className="w-[50%] rounded-lg hidden lg:block"
