@@ -5,9 +5,16 @@ const About = () => {
   return (
     <div className="">
       <h1 className="title">About BetaClan</h1>
-      <div className="flex gap-10 items-center">
-        <div className="w-[50%]">
-          <p className="text-xl mb-5">
+      <div className="lg:flex gap-10 items-center">
+        <Image
+          className=" rounded-lg lg:hidden mb-5"
+          alt=""
+          width={500}
+          height={500}
+          src="/abt.png"
+        />
+        <div className="lg:w-[50%]">
+          <p className="text-xl mb-5 text-center">
             BetaClan is a platform where you can buy data and airtime with any
             currency you have (on-chain and off-chain In Infocoin you can have a
             subscription plan for any perion of time you want Infocoin is the
@@ -19,7 +26,7 @@ const About = () => {
           <button className="btn-full">View Bundle</button>
         </div>
         <Image
-          className="w-[50%] rounded-lg"
+          className="w-[50%] rounded-lg hidden lg:block"
           alt=""
           width={500}
           height={500}

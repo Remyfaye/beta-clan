@@ -5,10 +5,10 @@ const Hero = () => {
     <div>
       {/* first */}
       <div className="my-20 flex flex-col items-center justify-center gap-5">
-        <h1 className="text-primary font-bold text-4xl">
+        <h1 className="text-primary font-bold text-center text-xl lg:text-4xl">
           Buy data and airtime Easily with Crypto
         </h1>
-        <p className="text-primary w-[50%] text-center">
+        <p className="text-primary lg:w-[50%] text-center">
           Top up your data and airtime in seconds using cryptocurrency, it’s
           fast, secure and works anywhere in the world. No waiting, just quick
           and easy top-ups,,,
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       {/* sencond */}
-      <div className="flex justify-between p-[4rem]">
+      <div className="lg:flex hidden lg:flex-row justify-between p-[4rem]">
         <div className="rounded-full p-4 border-[1px] border-primary h-[350px]">
           <div className="rounded-full bg-primary text-white h-[330px] text-center  flex justify-center items-center ">
             <p className="w-[95%] text-center text-2xl">
