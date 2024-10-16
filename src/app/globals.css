@@ -31,7 +31,7 @@ h1 {
   @apply border-[1px] bg-primary text-white rounded-2xl shadow-xl px-3 py-2;
 }
 .title {
-  @apply text-primary text-3xl text-center my-20;
+  @apply text-primary text-3xl text-center;
 }
 @layer utilities {
   .text-balance {
